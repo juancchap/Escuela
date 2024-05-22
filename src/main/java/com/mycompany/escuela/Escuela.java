@@ -1,16 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
+
 
 package com.mycompany.escuela;
 
-/**
- *
- * @author juan
- */
+import com.mycompany.escuela.Igu.Principal;
+
+
 public class Escuela {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       Principal prin = new Principal();
+       prin.setVisible(true);
+       prin.setLocationRelativeTo(null);
+       
     }
 }
